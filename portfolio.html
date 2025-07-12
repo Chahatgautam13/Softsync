@@ -1,0 +1,106 @@
+<!-- portfolio.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | SoftSync Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { padding-top: 56px; padding-bottom: 56px; }
+    .project-card img { object-fit: cover; height: 200px; }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">SoftSync</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Our Portfolio</h1>
+      <p class="lead">See some of our latest and most impactful work.</p>
+    </div>
+  </header>
+
+  <section class="container py-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 project-card shadow-sm">
+          <img src="assets/ecommerce.webp" class="card-img-top" alt="E-Commerce">
+          <div class="card-body">
+            <h5 class="card-title">E-Commerce Platform</h5>
+            <p class="card-text">Built a full-featured e-commerce solution with secure payments, user accounts, and mobile-first design.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 project-card shadow-sm">
+          <img src="assets/travel.webp" class="card-img-top" alt="Travel Booking">
+          <div class="card-body">
+            <h5 class="card-title">Travel Booking System</h5>
+            <p class="card-text">Designed and deployed a scalable booking system for flights and hotels integrated with global APIs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 project-card shadow-sm">
+          <img src="assets/saas.png" class="card-img-top" alt="SaaS Dashboard">
+          <div class="card-body">
+            <h5 class="card-title">SaaS Admin Dashboard</h5>
+            <p class="card-text">A modern dashboard with real-time analytics and role-based access built for a SaaS CRM tool.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 project-card shadow-sm">
+          <img src="assets/health.jpg" class="card-img-top" alt="Healthcare App">
+          <div class="card-body">
+            <h5 class="card-title">Healthcare App</h5>
+            <p class="card-text">Telemedicine application that connects doctors and patients with secure chat and video consultations.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 project-card shadow-sm">
+          <img src="assets/learn.webp" class="card-img-top" alt="Learning Platform">
+          <div class="card-body">
+            <h5 class="card-title">Online Learning Platform</h5>
+            <p class="card-text">Interactive LMS platform with quizzes, certifications, and progress tracking features.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 project-card shadow-sm">
+          <img src="assets/finance.webp" class="card-img-top" alt="Finance Tool">
+          <div class="card-body">
+            <h5 class="card-title">Finance Tracking Tool</h5>
+            <p class="card-text">A responsive PWA for personal and business finance tracking with rich graphs and alerts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+    <p class="mb-0">&copy; 2025 SoftSync Solutions. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
